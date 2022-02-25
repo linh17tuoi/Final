@@ -1,0 +1,201 @@
+@charset "utf-8";
+
+/*---- Phan Khung ----*/
+.main
+{
+	width: 100%;
+	height: 1000px;
+	background-color: coral;
+}
+.Header
+{
+	width: 100%;
+	height: 35px;
+	background-color: #363842;
+	box-sizing: border-box;
+	padding-top: 5px;
+	float: left;
+}
+.Slider
+{
+	width: 100%;
+	height: 250px;
+	background-color: #464952;
+	box-sizing: border-box;
+	padding-top: 160px;
+}
+.Body
+{
+	width: 100%;
+	height: 600px;
+	background-color: #f5f5f5;
+	padding-top: 25px;
+}
+.Ads
+{
+	width: 100%;
+	height: 80px;
+	background-color: #3273dd;
+	box-sizing: border-box;
+	padding-top: 30px;
+}
+.Footer
+{
+	width: 100%;
+	height: 135px;
+	background-color: #3d4049;
+}
+
+/*---- Ben Trong Header ----*/
+
+.Header ul
+{
+	list-style: none;
+	float: left;
+	margin-top: -10px;
+	margin-left: 60%;
+}
+.Header ul li
+{
+	padding: 15px;position: relative;
+	float: left;
+}
+.Header ul li:hover
+{
+	background-color: #F5F5F5;
+}
+.Header ul li:hover  a
+{
+	color: #464952;
+}
+.Header ul li a
+{
+	text-decoration: none;
+	color: white;
+}
+.Header ul li ul
+{
+	width: 150px;
+	height: 140px;
+	background-color: #F5F5F5;
+	position: absolute;
+	margin-left: -15px;
+	margin-top: 5px;
+	visibility: hidden;
+	padding: 0;
+}
+
+.Header ul li:hover ul
+{
+	visibility: visible;
+}
+.Header ul li ul li:hover
+{
+	width: 120px;
+	background-color: #363842;
+}
+.Header ul li ul li:hover a
+{
+	color: #F5F5F5;
+}
+.Logo
+{
+	width: 5%;
+	height: 25px;
+	background-color: #3770d6;
+	box-sizing: border-box;
+	margin-left: 2%;
+}
+.SignInButton
+{
+	width: 7%;
+	height: 15px;
+	background-color: #3770d6;
+	box-sizing: border-box;
+	float: right;
+	margin-top: -20px;
+	margin-right: 2%;
+}
+/*---- Ben Trong Slider ----*/
+
+.Button1
+{
+	width: 12%;
+	height: 20px;
+	background-color: #3770d6;
+	box-sizing: border-box;
+	margin-left: 45%;
+}
+
+/*---- Ben Trong Body ----*/
+
+.ProductType
+{
+	width: 20px;
+	height: 20px;
+	background-color: #e1e2e6;
+	box-sizing: border-box;
+	float: left;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-bottom: 25px;
+	
+}
+.VideoArena
+{
+	width: 100%;
+	height: 150px;
+	background-color: #e1e2e6;
+	box-sizing: border-box;
+	margin-top: 100px;
+	padding-top: 120px;
+}
+.Products
+{
+	width: 15%;
+	height: 60px;
+	background-color: #e1e2e6;
+	float: left;
+	margin-left: 8.3%;
+	margin-right: 10%;
+	margin-top: 80px;
+}
+
+/*---- Ben Trong Ads ----*/
+
+.SearchBox
+{
+	width: 40%;
+	height: 25px;
+	background-color: #1C4DBD;
+	margin-left: 15%;
+}
+.SearchButton
+{
+	width: 15%;
+	height: 25px;
+	background-color: #1C4DBD;
+	margin-left: 60%;
+	margin-top: -25px;
+}
+
+/*-------- Ben Trong Video Arena --------*/
+
+.Button2
+{
+	width: 8%;
+	height: 20px;
+	background-color: #3770d6;
+	box-sizing: border-box;
+	border-radius: 3px;
+	margin-left: 20%;
+}
+.Video
+{
+	width: 40%;
+	height: 130px;
+	background-color: #f5f5f5;
+	margin-left: 40%;
+	margin-top: -130px;
+}
+
